@@ -48,6 +48,10 @@ namespace ckwng.RailRoute
             {
                 Debug.Log("[ckwng] Transpiling OfferFinalContract() didn't work!");
             }
+            else
+            {
+                Debug.Log("[ckwng] Transpiled OfferFinalContract().");
+            }
         }
     }
 }

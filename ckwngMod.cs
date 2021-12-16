@@ -22,10 +22,5 @@ namespace ckwng.RailRoute
         public override CachedLocalizedString Description => "Test";
 
         public override CachedLocalizedString Title => "ckwng Extensions";
-
-        public async Task ContextChanged(IControllers controllers)
-        {
-            Debug.Log("[ckwng] onContextChanged");
-        }
     }
 }

@@ -61,6 +61,7 @@
     <Compile Include="ckwngSavedLevelDefinition.cs" />
     <Compile Include="ckwngTrainTypeConfig.cs" />
     <Compile Include="Patch_AcceptContractAfterTrial.cs" />
+    <Compile Include="Patch_IsTrainEligible.cs" />
     <Compile Include="Patch_OfferFinalContract.cs" />
     <Compile Include="Patch_ParseLevelDefinition.cs" />
     <None Include="Patch_ScheduleNextInstance.cs" />
@@ -72,6 +73,7 @@
     <None Include="Patch_TrackNumberFromChar.cs" />
     <None Include="Patch_TrackSelector.cs" />
     <Compile Include="Patch_TrainTypeConfig.cs" />
+    <Compile Include="Patch_TriggerAutomation.cs" />
     <Compile Include="Patch_WriteLevelDefinition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
